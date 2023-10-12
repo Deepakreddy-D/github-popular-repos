@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  min-height: 100vh;
+  font-family: 'Lobster';
+}
+.responsive-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.heading {
+  color: #0f172a;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+.filters-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+.repos-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  max-width: 1140px;
+}
+.failure-view-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-image {
+  width: 250px;
+  height: 180px;
+}
+@media screen and (min-width: 768px) {
+  .error-view-image {
+    width: 527px;
+    height: 393px;
+  }
+  .error-msg {
+    font-size: 48px;
+  }
+}
+
+.error-msg {
+  font-size: 28px;
+  text-align: center;
+  color: #334155;
+  font-family: 'Bree Serif';
+}
